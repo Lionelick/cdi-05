@@ -54,4 +54,23 @@ int main(){
         else if (contador == 4) {
             gpio_put_masked(0x7f, numero4);
         }
-        else if (
+        else if (contador == 5) {
+            gpio_put_masked(0x7f, numero5);
+        }
+        else if (contador == 6) {
+            gpio_put_masked(0x7f, numero6);
+        }
+        else if (contador == 7) {
+            gpio_put_masked(0x7f, numero7);
+        }
+        else if (contador == 8) {
+            gpio_put_masked(0x7f, numero8);
+        }
+        else if (contador == 9) {
+            gpio_put_masked(0x7f, numero9);
+        }
+
+        sleep_ms(500);
+        printf("Contador: %d\n", contador);
+    }
+}
